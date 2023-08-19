@@ -14,7 +14,7 @@ const config = {
   url: 'https://arks.lemonmiaow.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ArknightSStory/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -49,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://www.lemonmiaow.xyz',
+            'https://github.com/Lemon-miaow/ArknightSStory',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
