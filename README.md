@@ -1,41 +1,10 @@
-# Website
+<p align="center"><a href="https://xugaoyi.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+<h2 align="center">vuepress-theme-vdoing</h2>
 
-```
-$ yarn
-```
+[在线文档(国内源)](https://doc.xugaoyi.com/)
 
-### Local Development
+[主题仓库](https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[本仓库的gitee镜像](https://gitee.com/xugaoyi/vuepress-theme-vdoing-doc)
