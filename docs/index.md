@@ -1,169 +1,477 @@
 ---
-home: true
-heroImage: /img/logo.png
-heroText: ArknightSStory
-tagline: 一个收集鹰角卡牌原神的剧情站
-actionText: 开始使用 →
-actionLink: /pages/a2f161/
-bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+layout: home
 
-features: # 可选的
-  # - title: 知识管理
-  #   details: 包含三种典型的知识管理形态：结构化、碎片化、体系化。轻松打造属于你自己的知识管理平台
-  - title: 简洁高效
-    details: 如读小说般的方式，高效浏览各路剧情
-  - title: 沉浸式阅读
-    details: 专为阅读设计的UI，带给你一种沉浸式阅读体验
+hero:
+  name: ArknightSStory
+  text: 
+  tagline: "一个收集鹰角卡牌原神的剧情站"
+  image:
+    src: /src/logo.png
+    alt: ArknightSStory
+  actions:
+    - theme: brand
+      text: 快速开始
+      link: /contents
+    - theme: alt
+      text: 在GitHub上查看
+      link: https://github.com/Lemon-miaow/ArknightSStory
 
-# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-postList: none
+features:
+  - icon: 📚
+    title: 简洁
+    details: 如读小说般的方式，十分甚至九分方便浏览各路剧情
+  - icon: 🍾
+    title: 沉浸式阅读
+    details: 专为阅读文档设计的UI，带给你一种沉浸式打胶般的阅读体验
+  - icon: 🤺
+    title: 呃呃
+    details: 闲的没事干整的 
 ---
-<!-- <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
-</p> -->
 
-<!-- <style>
-.become-sponsor {
-  padding: 8px 20px;
-  display: inline-block;
-  color: #11a8cd;
-  border-radius: 30px;
-  box-sizing: border-box;
-  border: 1px solid #11a8cd;
-}
-</style>
+## 泰拉历
 
-<br/>
-<p align="center">
-  <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
-  <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/dt/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
-</p>
+### 结晶纪元之前
 
-<br/> -->
-<!-- <p align="center" style="color: #999;">
-  赞助商 (进入注册为主题作者充电)
-</p>
-<p align="center">
-  <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/blog-gitalk-comment@master/img/441669861566_.2bedplbm21hc.jpg" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
-</p> -->
-<!-- 
-## 🎖特别用户
-::: cardList 3
-```yaml
-# - name: OpenHarmony
-#   desc: 开放原子开源基金会
-#   link: https://docs.openharmony.cn/pages/000000/
-#   bgColor: '#f1f1f1'
-#   textColor: '#2A3344'
-- name: MyBatis-Plus官网
-  desc: 🚀为简化开发而生
-  link: https://baomidou.com/
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-# - name: Deepin 社区
-#   desc: Deepin 应用开发技术分享、DTK开发经验等
-#   link: https://docs.deepin.org
-#   bgColor: '#f1f1f1'
-#   textColor: '#2A3344'
-# - name: VForm官网
-#   desc: 低代码表单优选方案，拖拽式设计，一键生成源码
-#   link: http://www.vform666.com
-#   bgColor: '#f1f1f1'
-#   textColor: '#2A3344'
-```
+::: timeline 前文明时期
+
+- DWDB-221E项目取得成果，老行星工程师将其命名为“文明的存续”
+
+- Ama项目取得成果，AMa-10“凯尔希”诞生
+
+- 为应对毁灭灾难，“保存者”计划启动，其中一人特雷弗·弗里斯顿化作数字生命看守“石棺” 
+
 :::
 
-<br/>
+::: timeline 泰拉纪元前 未知年份
 
-## 🎉上新推荐
-* `v1.12.x`
-  - 新增配置项`pageStyle`，用于切换页面的风格样式，可选`卡片`、 `线条`风格。[详情](/pages/a20ce8/#pagestyle)
-  - 新增配置项`bodyBgImgInterval`，用于在设置了多张背景大图时修改大图切换的时间间隔。[详情](/pages/a20ce8/#bodybgimginterval)
-  - 新增配置项`defaultMode`，用于修改默认外观模式(v1.12.3)。[详情](/pages/a20ce8/#defaultmode)
-* `v1.11.x`：新增配置项`extendFrontmatter`，用于扩展自动生成front matter。[详情](/pages/a20ce8/#extendfrontmatter)
-* `v1.10.x`：新增右侧目录栏对h2~h6标题的适配，并优化了UI，[详情](/pages/8dfab5/)。
-* `v1.9.x`：新增配置文件对TypeScript的支持，参考[config.ts](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/docs/.vuepress/config.ts)。新增[标题标记](/pages/3216b0/#titletag)。
-* `v1.8.x`：新增 Markdown中使用的组件：[代码块选项卡](/pages/197691/#代码块选项卡) 。
-* `v1.7.x`：新增 [自定义html模块](/pages/a20ce8/#自定义html模块) 配置，可用于插入广告模块。
-* `v1.6.x`：支持[`四级目录`](/pages/33d574/#级别说明)，提高[站点结构](/pages/33d574/#级别说明)可塑性。
-* `v1.5.x`：新增[`笔记`容器](/pages/d0d7eb/)，轻松插入笔记框。
-* `v1.4.x`：新增了文章内容区块的 [背景底纹配置](/pages/a20ce8/#文章内容块的背景底纹)，让你的文章看起来像笔记本的风格~
-* `v1.2.x`：这个版本对整体的UI细节做了很多优化，比如标签栏和分类栏等
-* `v1.1.x`：从这个版本开始主题新增`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~
+- 有记载第一场天灾降临泰拉
 
-更多上新请查阅：[**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+- 大炎建国，不久后真龙召集奇人讨伐神明，包括“睚”在内的诸多巨兽因炎国围剿和巨兽“岁”的反叛助力被驱逐  
+  之后“岁”在庆祝的庆典上亦被围剿，于不甘和疑惑中分裂出12枚碎片于泰拉各地
 
-<br/>
+- 耶拉冈德建立谢拉格
 
-<!-- ## ⚡️未来...
+- 阿斯兰征服大地西南的诸部落，泰拉最初的君权在萨尔贡确立
 
-::: tip
-期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
+- 谷地的游牧民族分裂  
+  王政派建立维多利亚王国，守旧派迁至今塔拉地区
 
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress。还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
-::: -->
-
-<br/>
-
-<!-- ## 💎 公众号
-`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如：
-- [小霸王游戏机](https://game.xugaoyi.com)
-- [爱国头像生成器](https://avatar.xugaoyi.com/)
-- [到账语音生成器](https://zfb.xugaoyi.com/)
-
-还有更多好玩的等你去探索吧~
-
-::: center
-<img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
 :::
 
-<br/> -->
-<!-- 
-## ⚡ 反馈与交流
+::: timeline 约前100年
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
-你也可以在Issue查看别人提的问题和给出解决方案。
+- 德拉克游牧部族统治塔拉地区
 
-或者加入我们的交流群：
+:::
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing微信群(添加我微信备注"进群")</p>
-      </td>
-      <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing QQ群: 694387113</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+::: timeline 前35年
 
+- “沙阿”路加萨尔古斯出生
 
-<!-- AD -->
-<!-- <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
-<style>
-  .page-wwads{
-    width:100%!important;
-    min-height: 0;
-    margin: 0;
-  }
-  .page-wwads .wwads-img img{
-    width:80px!important;
-  }
-  .page-wwads .wwads-poweredby{
-    width: 40px;
-    position: absolute;
-    right: 25px;
-    bottom: 3px;
-  }
-  .wwads-content .wwads-text, .page-wwads .wwads-text{
-    height: 100%;
-    padding-top: 5px;
-    display: block;
-  }
-</style> -->
+:::
+
+::: timeline 前25年
+
+- “沙阿”路加萨尔古斯即位
+
+:::
+
+::: timeline 前20年
+
+- 路加萨尔古斯迅速镇压了“三狮之乱”叛变，确立了其在萨尔贡的统治地位并清洗了宫廷内部的反对派  
+  在之后几年，他率军向北，扩张萨尔贡版图
+
+:::
+
+::: timeline 泰拉历元年
+
+- 最初的十位圣徒自卡兹戴尔离去，接受“律法”恩赐成为萨科塔，在律法主机之上拉特兰建城  
+  之后萨科塔与萨卡兹军队在圣城发生冲突，战役以众圣徒的胜利告终，拉特兰的千年和平时代开始
+
+- 路加萨尔古斯发现了“掌握时间”的“圣物”，自封为“过去与未来之王”  
+  泰拉纪年由此开始计算
+
+:::
+
+::: timeline 11 年
+
+- “哈兰杜汗”达拉台一统草原，开始举兵出征  
+  期间作为梦魇大可汗率领怯薛勇士征服高卢等多个国家
+
+- 哈兰杜汗率军到达骏鹰王国，并击败骏鹰、让圣骏堡付之一炬  
+  战后，骏鹰贵族不得不屈膝于可汗身前，向他的大军进贡
+
+:::
+
+::: timeline 12 年
+
+- 天马王室率军于卡西米尔平原迎战梦魇，战败的同时卡西米尔引以为立国根基的胜利神话迎来终结  
+  为维护统治地位，天马王室向梦魇递上降书
+
+:::
+
+::: timeline 13 年
+
+- 求和无果的天马王室被架空，诸骑士团组成骑士领联合
+
+:::
+
+::: timeline 14 年
+
+- 哈兰杜汗率军到达萨尔贡并受到路加萨尔古斯的邀请  
+  在与路上的许多帕夏鏖战后，哈兰杜汗到达路加萨尔古斯面前
+
+:::
+
+::: timeline 15 年
+
+- 哈兰杜汗与路加萨尔古斯分别率军在后者选定的战场爆发战事，但被邪魔中断  
+  两人达成暂时合作的共识，一起率军征讨邪魔，最终击退但也引发了大爆炸般的大湮灭  
+  两人不知所终，疑似无尽战争抵御焚风热土的时间坍缩现象；军队十不存一，湮灭遗留的辐射令战场变为焚风热土
+
+:::
+
+::: timeline 16 年
+
+- 为了重建被梦魇可汗大军攻破的圣骏堡，骏鹰贵族使役更多乌萨斯工人投入重建工程
+
+:::
+
+::: timeline 18 年
+
+- 乌萨斯工人首次叛乱，伊戈尔通过平叛取得骏鹰贵族信任
+
+:::
+
+::: timeline 27 年
+
+- 乌萨斯起义，骏鹰王国的“养熊人”伊戈尔向骏鹰举起反旗
+
+:::
+
+::: timeline 31 年
+
+- 起义军攻陷圣骏堡，伊戈尔登上皇座，骏鹰帝国正式更名为乌萨斯帝国
+
+:::
+
+::: timeline 58 年
+
+- 伊戈尔驾崩，其子“少年皇”阿列克谢将讨伐骏鹰残党定为国策
+
+:::
+
+::: timeline 300 年前后
+
+- 《今昔闻言略事录》由东国一位佚名僧人完成
+
+:::
+
+::: timeline 400 年前后
+
+- 东国的地方局势在周期性多发天灾和土地租税制度崩溃的双重作用下陷入动荡  
+  从地方名主中崛起的脱产武士们以直接的物理手段取代了东皇身边的实权派公卿，进而开始掌握整个国家的权力
+
+:::
+
+::: timeline 653 年
+
+- 鬼菖蒲征作死于连年征战中感染的矿石病
+
+:::
+
+::: timeline 598 年
+
+- 弗朗西斯科·德莱昂出生于伊比利亚
+
+:::
+
+::: timeline 717 年 ~ 735 年
+
+- 弗朗西斯科·德莱昂加入一支探险队并在这一过程中探索了泰拉大部分地区
+
+:::
+
+::: timeline 735 年
+
+- 弗朗西斯科·德莱昂说服伊比利亚国王为其对泰拉西北部的探索进行援助
+
+:::
+
+::: timeline 737 年
+
+- 弗朗西斯科·德莱昂的探险队开始对泰拉西北部进行探索，并最终踏上玻利瓦尔平原  
+  同时他说服了贝亚德帕夏和他一起开拓伊比利亚-萨尔贡-玻利瓦尔商道  
+  最终，伊比利亚宣布设立玻利瓦尔殖民地总督区，弗朗西斯科·德莱昂上任总督并被赐予“征服者”头衔
+
+- 维多利亚皇家科学院创立
+
+:::
+
+::: timeline 747 年
+
+- 七城联邦开始研究现代移动城市技术
+
+:::
+
+::: timeline 759 年
+
+- 弗朗西斯科·德莱昂去世
+
+:::
+
+::: timeline 767 年
+
+- 贝亚德帕夏去世，其继任者强行关闭了伊比利亚-萨尔贡-玻利瓦尔商道  
+  同时，维多利亚、高卢和莱塔尼亚对快速发展的玻利瓦尔施压，玻利瓦尔总督被迫宣布玻利瓦尔决定独立  
+  玻利瓦尔从伊比利亚治下的总督区变为自治领  
+  自此玻利瓦尔开始逐步陷入混乱状态  
+  同时这一事件也使得对雷姆必拓地区的第一次大规模探索宣告结束
+
+:::
+
+::: timeline 807 年
+
+- 南北两院东皇在御神神禾京曾经的所在地共同颁布《两国令》  
+  东国南北朝开启
+
+:::
+
+---
+
+### 结晶纪元
+
+#### 11世纪前
+
+::: timeline 797 年
+
+- 七城联邦建成泰拉历史上第一座现代移动城市
+
+:::
+
+::: timeline 9世纪
+
+- 塔拉地区的民族语言廷盖语逐渐消亡
+
+:::
+
+::: timeline 800 年
+
+- 阿斯兰第一次驱逐德拉克
+
+:::
+
+::: timeline 812 年
+
+- 威廉 - 赫尔佐格 - 谷腾堡大学创立
+
+:::
+
+::: timeline 833 年
+
+- 奥瑟马恩伯爵受高卢弗朗索瓦皇帝之命，主持首都林贡斯的移动城市化改建工程
+
+:::
+
+::: timeline 838 年~851年
+
+- 费多斯·谢苗诺维奇·迭日涅夫率探险队四度进入萨米，疑似进入过因非冰原并成功返回
+
+:::
+
+::: timeline 852 年
+
+- 费多斯·谢苗诺维奇·迭日涅夫为了抗议乌萨斯对萨米地区的“傲慢、野蛮而不公正的欺压”，以49岁的年龄提前退休
+
+:::
+
+::: timeline 845 年
+
+- 炎国首次向泰拉各国派出信使进行外交活动，开启了泰拉诸国交往的新局面
+
+:::
+
+::: timeline 852 年
+
+- 时装品牌“冰原信使”成立
+
+:::
+
+::: timeline 858 年
+
+- 林贡斯移动城市化改建工程竣工
+
+:::
+
+::: timeline 885 年
+
+- 波利瓦尔主导权开始从伊比利亚向外转移  
+  自此，伊比利亚对玻利瓦尔的殖民统治终结，失去主导的玻利瓦尔陷入战乱
+
+:::
+
+::: timeline 893 年
+
+- 卡兹戴尔国都再一次化为废墟，大批萨卡兹人流亡海外
+
+:::
+
+::: timeline 885 年 ~ 897 年
+
+- 维多利亚、高卢和莱塔尼亚就控制玻利瓦尔一事接下来混乱的外交拉锯战  
+  最终，莱塔尼亚获胜
+
+:::
+
+::: timeline 897 年
+
+- 施彤领的选帝侯率军，以“平叛”名号重新统一了玻利瓦尔全境  
+  玻利瓦尔在莱塔尼亚的影响下成立了受后者控制的玻利瓦尔王国，步入辛嘉斯王朝时代
+
+:::
+
+::: timeline 898 年
+
+- 莱塔尼亚人统治玻利瓦尔
+
+- 阿卡胡拉出现第一位大酋长
+
+- 凯尔希率领维多利亚、莱塔尼亚和高卢三国联军进攻卡兹戴尔但失败  
+  萨卡兹六英雄之一特雷西斯斩首凯尔希  
+  战后，卡兹戴尔战争议会成立，六英雄之一的特蕾西娅被选召为魔王
+
+:::
+
+::: timeline 913 年
+
+- 伊比利亚与“岛民”（逃难的阿戈尔人）相遇
+
+:::
+
+::: timeline 915 年
+
+- 时任萨尔贡万王之王“白鬃王”帕赫里图在边境地带的王酋建议下决定征服米诺斯
+
+:::
+
+::: timeline 917 年
+
+- 萨尔贡以高昂代价征服了米诺斯各城邦  
+  但因为帕赫里图逝世，其子沙苏鲁姆宣告胜利并继位
+
+:::
+
+::: timeline 920 年 ~ 950 年
+
+- 沙苏鲁姆令其妹玛拉担任米诺斯帕夏  
+  她在任上对米诺斯执行了彻底的文化同化政策，同时也将米诺斯成为萨尔贡帝国最重要的经济产区
+
+:::
+
+::: timeline 926 年
+
+- “沁礁黑市”在萨尔贡的沙漠地区建立
+
+:::
+
+:::timeline 930 年
+
+- 伊比利亚走向黄金时代
+
+:::
+
+::: timeline 937 年
+
+- 埃里克勋爵与匹斯堡议会大学的李尔兰·D教授在《我们从哪里来？》第44期上发表合著论文，通过萨尔贡四号填埋坑的考古发现，证实感染者受难史与法的历史同龄
+
+:::
+
+::: timeline 965 年
+
+- 萨尔贡官方以庆祝路加萨尔古斯千年诞辰的名义，推出了一套五十卷的《萨尔贡史》
+
+:::
+
+::: timeline 940 年
+
+- “巫王”奥托·迪特乌尔·古斯塔夫·冯·乌提卡出生  
+  其日后被称为“赫尔昏佐伦”
+
+:::
+
+::: timeline 967 年
+
+- 莱塔尼亚的叙拉古自治领爆发了声势浩大的独立运动并波及了其他大区
+
+:::
+
+::: timeline 969 年
+
+- “巫王”赫尔昏佐伦登基  
+  他通过修改金律乐章，宣布承认叙拉古地区脱离莱塔尼亚独立
+
+- 叙拉古城邦盟会议事厅被炸毁  
+  叙拉古长达70年的内乱爆发
+
+:::
+
+::: timeline 990 年
+
+- 一片全新的地区由维多利亚首次发现，并被命名为“哥伦比亚”
+
+:::
+
+::: timeline 994 年
+
+- 时装品牌“时代”成立
+
+:::
+
+#### 11世纪
+
+##### *1000-1095年*
+
+::: timeline 1007 年
+
+- 索雷城建立
+
+::: 
+
+::: timeline 1011 年
+
+- 拉特兰与伊比利亚合资修建可移动大型综合设施安布罗修修道院
+
+- 维多利亚议会通过《义务法案》，对开拓区征收重税
+
+:::
+
+::: timeline 1012 年
+
+- 四皇中的高卢末代皇帝科西嘉一世加冕，高卢在其统治下国力达到鼎盛时期并开始向周边国家扩张
+
+:::
+
+::: timeline 1016 年
+
+- 一名维多利亚税务特使在执行公务时遭到了持械暴徒的袭击和殴打  
+  尽管在第一时间缉拿了肇事者，开拓军拒绝将犯人送回维多利亚审判  
+  该事件很快升级为彼时的边境领公爵提伯特镇压开拓军的战争，哥伦比亚独立战争爆发
+
+- 哥伦比亚独立战争中，伍德洛因桥夹的决定被俘，被关入柯略斯营地
+
+:::
+
+::: timeline 1017 年
+
+- 哥伦比亚在高卢的支持下脱离维多利亚统治
+
+- “联邦之父”梅兰德·塞勒涅带领其团队挖掘出<ruby>思维框架与智能思想库<rt>Mindframe &amp; Think Tank</rt></ruby>  
+  其终端马克·麦克斯在前者的担保下加入哥伦比亚独立武装指挥部
+
+:::
+
+::: timeline 1018 年
+
+- 11月，边境领公爵于巴贝奇战役惨败，公爵军向南败退
+
+:::

@@ -1,27 +1,39 @@
 {
-  "name": "theme-vdoing-doc",
+  "name": "arknightsstory",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
-    "predev": "node utils/check.js dev && vdoing",
-    "prebuild": "node utils/check.js build && vdoing",
-    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
-    "editFm": "node utils/editFrontmatter.js"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemon-miaow/ArknightSStory.git"
+  },
+  "keywords": [
+    "Arknights"
+  ],
+  "author": "Lemon_miaow",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lemon-miaow/ArknightSStory/issues"
+  },
+  "homepage": "https://github.com/Lemon-miaow/ArknightSStory#readme",
   "devDependencies": {
-    "dayjs": "^1.9.7",
-    "inquirer": "^7.1.0",
-    "json2yaml": "^1.1.0",
-    "vuepress": "1.9.9",
-    "vuepress-plugin-baidu-tongji": "^1.0.1",
-    "vuepress-plugin-demo-block": "^0.7.2",
-    "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-thirdparty-search": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.12.9",
-    "yamljs": "^0.3.0"
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.21.0",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.21.0",
+    "vitepress": "^1.1.0"
+  },
+  "dependencies": {
+    "vitepress-markdown-timeline": "^1.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.21.0",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.21.0",
+    "vitepress": "^1.1.0"
   }
 }
