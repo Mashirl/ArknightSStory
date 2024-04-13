@@ -26,14 +26,15 @@
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.21.0",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.21.0",
+    "vitepress-markdown-timeline": "^1.2.1",
     "vitepress": "^1.1.0"
   },
   "dependencies": {
-    "vitepress-markdown-timeline": "^1.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.21.0",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^1.21.0",
+    "vitepress-markdown-timeline": "^1.2.1",
     "vitepress": "^1.1.0"
   }
 }

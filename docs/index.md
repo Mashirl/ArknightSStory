@@ -6,7 +6,7 @@ hero:
   text: 
   tagline: "一个收集鹰角卡牌原神的剧情站"
   image:
-    src: /src/logo.png
+    src: /logo.png
     alt: ArknightSStory
   actions:
     - theme: brand
