@@ -17,7 +17,7 @@ export default defineConfig({
   // srcDir: './src',
   cacheDir: './.vitepress/.vite',
   sitemap: {
-    hostname: 'https://ark.lemonmiaow.xyz'
+    hostname: 'https://arks.lemonmiaow.xyz'
   },
   themeConfig: {
     siteTitle: 'ArknightSStory',
@@ -133,7 +133,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Lemon-miaow/ArknightSStory' }
     ]
   }
 })
