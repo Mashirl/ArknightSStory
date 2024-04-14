@@ -118,7 +118,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: '本网站是由《明日方舟》游戏爱好者，使用免费开源的 Vitepress 程序制作。网站所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。网站中Logo与favicon.ico属于@Qu_An。 网站内使用的游戏图片、动画、音频、文本原文，仅用于更好地表现游戏资料，其版权属于 Arknights/上海鹰角网络科技有限公司。 除非另有声明，网站其他内容采用BY-NC-SA授权。',
+      message: '本网站是由《明日方舟》游戏爱好者，使用免费开源的 VitePress 程序制作。网站所涉及的公司名称、商标、产品等均为其各自所有者的资产，仅供识别。网站中Logo与favicon.ico属于@Qu_An。 网站内使用的游戏图片、动画、音频、文本原文，仅用于更好地表现游戏资料，其版权属于 Arknights/上海鹰角网络科技有限公司。 除非另有声明，网站其他内容采用BY-NC-SA授权。',
       copyright: ' Copyright © 2024 ArknightSStory. | CC BY-NC-SA 4.0'
     },
 
